@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    background-color: rgb(230, 228, 213);
+    padding: 30px;
+}
+.logo h2{
+    color: brown;
+    font-size: 20px;
+}
+
+.list {
+    display: flex;
+gap: 50px;
+    
+}
+.list a{
+text-decoration: none;
+color: black;
+
+justify-content: space-between;
+}
+.btns{
+    display: flex;
+    gap: 20px;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
